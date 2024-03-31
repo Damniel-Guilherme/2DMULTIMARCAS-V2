@@ -1,0 +1,9 @@
+body {
+    max-width: 1720px;
+    margin: 0 auto;
+}
+
+#nav {
+    padding: 20px;
+    border-bottom: 1px solid #000;
+}

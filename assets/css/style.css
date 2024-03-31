@@ -1,0 +1,93 @@
+* {
+    font-family: "Roboto", sans-serif;
+}
+
+.nav-link {
+    font-family: "Roboto", sans-serif;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+body {
+    max-width: 1720px;
+    margin: 0 auto;
+}
+
+/* header */
+
+#nav {
+    padding: 20px;
+}
+
+#menuLista {
+    text-align: center;
+}
+
+#menuLista li {
+    border-bottom: 1px solid #000;
+}
+
+#dropMenu {
+    border: none;
+}
+
+#dropMenu li {
+    border: none;
+}
+
+.carousel-item img {
+    height: 600px;
+}
+
+.camisetas {
+    margin-top: 100px;
+}
+
+/* Section Camisetas  */
+
+#cards_camisetas {
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+
+/* Imgs camiseta */
+
+.card_camisetas {
+    margin-bottom: 50px;
+}
+
+.cards_camisetas_img {
+    width: 388px;
+    height: 512px;
+    object-fit: cover;
+}
+
+.card_texts {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    text-align: center;
+}
+
+.card_texts h3 {
+    font-size: 17px;
+}
+
+
+/* footer */
+
+.footer_texts {
+    margin-top: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 300px;
+    border-top: 1px solid #000;
+    padding: 30px;
+}
